@@ -4,7 +4,7 @@
 (function() {
     'use strict';
 
-    let DEBUG = false;
+    let DEBUG = true;
 
     // ========== Helper Functions ==========
 
