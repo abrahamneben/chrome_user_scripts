@@ -69,7 +69,6 @@
 
             // Create and dispatch mousedown event
             const mousedownEvent = new MouseEvent('mousedown', {
-                // view: window,
                 bubbles: true,
                 cancelable: true,
                 buttons: 1
@@ -79,7 +78,6 @@
 
             // Create and dispatch mouseup event
             const mouseupEvent = new MouseEvent('mouseup', {
-                // view: window,
                 bubbles: true,
                 cancelable: true,
                 buttons: 1
@@ -89,7 +87,6 @@
 
             // Create and dispatch click event
             const clickEvent = new MouseEvent('click', {
-                // view: window,
                 bubbles: true,
                 cancelable: true,
                 buttons: 1
@@ -201,12 +198,7 @@
 
     // ========== Export Module ==========
 
-    // Expose functions to window for other scripts to use
     window.keyboardShortcutCore = {
-        // debug,
-        // findElement,
-        // simulateClick,
-        // findAndClick,
         setupShortcuts
     };
 
